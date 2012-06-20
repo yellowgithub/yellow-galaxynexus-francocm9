@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="http://github.com/" name="gh" revision="master" />
+  <remote fetch="https://github.com/koush/" name="koush" revision="ics" />
+
+  <project name="koush/proprietary_vendor_samsung" path="vendor/samsung" remote="gh" revision="ics" />
+  <project name="koush/proprietary_vendor_imgtec" path="vendor/imgtec" remote="gh" revision="ics" />
+  <project name="CyanogenMod/android_device_samsung_maguro" path="device/samsung/maguro" remote="github" revision="ics" />
+  <project name="CyanogenMod/android_kernel_samsung_tuna" path="kernel/samsung/tuna" remote="github" revision="ics" />
+  <project name="CyanogenMod/android_device_samsung_tuna" path="device/samsung/tuna" remote="github" revision="ics" />
+  <project name="CyanogenMod/android_device_semc_mango" path="device/semc/mango" remote="github" revision="ics" />
+
+  <remote fetch="https://bitbucket.org/franciscofranco/" name="franco" />
+  <project name="android-tuna-omap" path="kernel/samsung/tuna_franco" remote="franco" revision="master" />
+
+</manifest>
